@@ -1,0 +1,11 @@
+.clearfix { 
+   clear: both;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin: 10px;
+  float: left;
+}

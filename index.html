@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DOM Tutorial</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+  
+  <h1 class="title">DOM Manipulation</h1>
+
+  <h2>Boxes <button id="add-box">+</button> <button id="delete-all-boxes">x</button></h2>
+  <div id="box-container">
+    <div class="box"></div>
+  </div>
+  <div class="clearfix"></div>
+
+  <h2>Todo Tasks</h2>
+  <div>
+    <label for="todo-task">Task name:</label>
+    <input type="text" name="name" id="todo-task" placeholder="Call mom" />
+    <button type="button" id="add-todo-task">+</button>
+  </div>
+  <div id="todo-list">
+    <h3>Todo list: </h3>
+    <ul></ul>
+    <button id="delete-all-tasks">Clear All</button>
+  </div>
+
+  <script src="./assets/js/boxes.js"></script>
+  <script src="./assets/js/todo-list.js"></script>
+</body>
+</html>
